@@ -1,0 +1,79 @@
+
+div{
+	box-sizing: border-box;
+}
+
+header {
+	background: white;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+
+div.post img, img{
+	width: 100%;
+}
+
+div.post .post-header div:first-child{
+	display: inline-block;
+	width: 80%;
+}
+
+div.post .post-header div:last-child{
+	display: inline-block;
+	width: 20%;	
+	padding: 10px;
+	text-align: right;
+	color: grey;
+}
+
+div.post h2, div.post p , b {
+	padding: 4px;
+	margin: 0;
+}
+
+
+div.container{
+	width: 600px;
+	margin: auto;
+}
+
+div.border{
+	background: rgb(240, 240, 240);
+	margin-top: 10%;
+}
+
+
+.col{
+    
+    height: 200px; 
+    
+  }
+
+.navbar {
+    margin: auto;
+	width: auto;
+	margin: auto;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+  }
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	margin-left: 40px;
+	margin-right: 40px;
+  }  
+
+  .navbar-brand {
+	margin-left: 10px;
+  }
+  
+  .brand-name{
+	margin-top: 5px;
+  }
